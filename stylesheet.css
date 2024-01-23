@@ -1,0 +1,145 @@
+/*//////////////////////////////////GENERAL BODY//////////////////////////////////*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #4EB986;
+    background-image: linear-gradient(white,#00B7E1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #4E82B9;
+}
+nav{
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    width: 80%;
+    padding: 5% 10%;
+    border-top: 3px solid #237B4B;
+    background-color: #12A579;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding: 0 6%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+h2, h3{
+    color:#4E82B9;
+    margin-top: 1%;
+}
+
+
+section{
+    background-color: white;
+    color: #4EB986;
+}
+section>p{
+    line-height: 150%;
+    color: black;
+}
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;   
+    font-size: 1.8em;
+    height: 2.2em;
+    margin-left: 40%;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: darkgrey;
+    background-color: white;
+    margin-bottom: 18%;
+}   
+/*/////////////////////////////////////INDEX/////////////////////////////////////*/
+
+.title{
+    text-align: center;
+    margin-top: 5%;
+    color: black;
+}
+.invis{
+    margin: 0 8%;
+    padding: 5% 0;
+    color: black;
+}
+
+.boxOfFood{
+    border-radius: 50%;
+    border: 4px solid #237B4B;
+
+}
+/*/////////////////////////////////////ABOUT US/////////////////////////////////////*/
+.container{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.borderb{
+    border-bottom: 1px solid black;
+}
+.sponsor{
+    width: 20%;
+    height: 20%;
+    
+    
+}
+/*/////////////////////////////////////DONATE/////////////////////////////////////*/
+.doncontainer{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+
+.numbtn{
+    background-color: #E2CF2B;
+    color: white;
+    text-align: center;
+    margin: 0 10% 5% 0;
+    padding: 0 4%;
+    width: 3.2em;
+    border-radius: 20%;
+}
+
+.input {
+    height: 4em;
+    width: 3em;
+}
+
+.conbtn{
+    background-color: #E2CF2B;
+    color: white;
+    /* text-align: center; */
+    /* margin: 0 10% 5% 0; */
+    padding: 0 4%;
+    border-radius: 20%;
+}
+
+
+/*/////////////////////////////////////CONTACT/////////////////////////////////////*/
+.green{
+    color: #4EB986;
+}
