@@ -10,20 +10,32 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-  
+
     function scrollToTop() {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
     }
-  
+
     backToTopButton.addEventListener('click', scrollToTop);
     document.addEventListener('scroll', toggleButtonVisibility);
 
-    //empty textbox
+    //empty textbox method 1
     function clearText() {
         document.getElementById('textBox').textContent = '';
     }
-  });
-  
+
+    //empty textbox method 2
+    var textBox = document.getElementById('textBox');
+
+    if (textBox) {
+        textBox.addEventListener('click', clearText);
+    }
+
+    function clearText() {
+        if (textBox) {
+            textBox.value = '';
+        }
+    }
+});

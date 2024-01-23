@@ -3,24 +3,26 @@ body {
     margin: 0;
     padding: 0;
     background-color: #4EB986;
-    background-image: linear-gradient(white,#00B7E1);
+    background-image: linear-gradient(white, #00B7E1);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-section, footer {
+section,
+footer {
     margin: 20px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #4E82B9;
 }
-nav{
+
+nav {
     position: fixed;
     bottom: 0;
     margin: 0;
     width: 80%;
     padding: 2% 10%;
-    border-top: 3px solid #237B4B;
+    border-top: 3px solid #145632;
     background-color: #12A579;
 }
 
@@ -40,24 +42,27 @@ nav a {
     color: white;
 }
 
-h2, h3{
-    color:#4E82B9;
+h2,
+h3 {
+    color: #4E82B9;
     margin-top: 1%;
 }
 
 
-section{
+section {
     background-color: white;
     color: #4EB986;
 }
-section>p{
+
+section>p {
     line-height: 150%;
     color: black;
 }
+
 button {
     cursor: pointer;
     background-color: transparent;
-    border: none;   
+    border: none;
     font-size: 1.8em;
     height: 2.2em;
     margin-left: 40%;
@@ -69,7 +74,7 @@ footer {
     color: darkgrey;
     background-color: white;
     margin-bottom: 18%;
-}   
+}
 
 #top {
     position: fixed;
@@ -92,43 +97,55 @@ footer {
     cursor: pointer;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
+
 /*/////////////////////////////////////INDEX/////////////////////////////////////*/
 
-.title{
+.title {
     text-align: center;
     margin-top: 5%;
     color: black;
 }
-.invis{
+
+.invis {
     margin: 0 8%;
     padding: 5% 0;
     color: black;
 }
 
-.boxOfFood{
+.boxOfFood {
     border-radius: 50%;
-    border: 4px solid #237B4B;
-
+    border: 4px solid #0f8243;
 }
+
 /*/////////////////////////////////////ABOUT US/////////////////////////////////////*/
-.container{
+.container {
     display: flex;
     width: 80%;
 }
-.borderb{
+
+.borderb {
     border-bottom: 1px solid black;
 }
-.sponsor{
+
+.sponsor {
     width: 20%;
     height: 20%;
-    
-    
+    margin-left: 40%;
+
+
 }
+
 /*/////////////////////////////////////DONATE/////////////////////////////////////*/
-.doncontainer{
+.donimg{
+    border-radius: 50%;
+    border: 4px solid #145632;
+    margin-left: 8%;
+}
+
+.doncontainer {
     display: flex;
     width: 80%;
     flex-wrap: wrap;
@@ -137,7 +154,7 @@ footer {
     margin-left: 10%;
 }
 
-.numbtn{
+.numbtn {
     background-color: #E2CF2B;
     color: white;
     text-align: center;
@@ -150,10 +167,11 @@ footer {
 #textBox {
     height: 3em;
     width: 11em;
+    margin: 2% 1%;
 }
 
-.conbtn{
-    background-color: #E2CF2B;
+.conbtn {
+    background-color: darkgray;
     color: white;
     /* text-align: center; */
     /* margin: 0 10% 5% 0; */
@@ -165,6 +183,6 @@ footer {
 
 
 /*/////////////////////////////////////CONTACT/////////////////////////////////////*/
-.green{
+.green {
     color: #4EB986;
 }
