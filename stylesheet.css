@@ -19,7 +19,7 @@ nav{
     bottom: 0;
     margin: 0;
     width: 80%;
-    padding: 5% 10%;
+    padding: 2% 10%;
     border-top: 3px solid #237B4B;
     background-color: #12A579;
 }
@@ -32,7 +32,7 @@ nav ul {
 
 nav li {
     display: inline;
-    padding: 0 6%;
+    padding: 0 8%;
 }
 
 nav a {
@@ -70,6 +70,31 @@ footer {
     background-color: white;
     margin-bottom: 18%;
 }   
+
+#top {
+    position: fixed;
+    bottom: 10%;
+    margin-left: 82%;
+    float: right;
+    text-decoration: none;
+    padding: 0.3em 0.5em;
+    font-family: sans-serif;
+    color: #fff;
+    background: #E2CF2B;
+    border: 2px solid #a29520;
+    border-radius: 100px;
+    transition: opacity 0.3s, transform 0.3s;
+    font-size: 2em;
+
+    margin-top: calc(0vh + var(--offset));
+    --offset: -4%;
+
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
 /*/////////////////////////////////////INDEX/////////////////////////////////////*/
 
 .title{
@@ -92,8 +117,6 @@ footer {
 .container{
     display: flex;
     width: 80%;
-    flex-wrap: wrap;
-    flex-direction: row;
 }
 .borderb{
     border-bottom: 1px solid black;
@@ -110,7 +133,7 @@ footer {
     width: 80%;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-left: 10%;
 }
 
@@ -118,15 +141,15 @@ footer {
     background-color: #E2CF2B;
     color: white;
     text-align: center;
-    margin: 0 10% 5% 0;
+    margin: 0 2% 5% 0;
     padding: 0 4%;
-    width: 3.2em;
+    width: 3.7em;
     border-radius: 20%;
 }
 
-.input {
-    height: 4em;
-    width: 3em;
+#textBox {
+    height: 3em;
+    width: 11em;
 }
 
 .conbtn{
@@ -136,6 +159,8 @@ footer {
     /* margin: 0 10% 5% 0; */
     padding: 0 4%;
     border-radius: 20%;
+    font-size: 1.5em;
+    margin-left: 10%;
 }
 
 
