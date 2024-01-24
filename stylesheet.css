@@ -20,8 +20,8 @@ nav {
     position: fixed;
     bottom: 0;
     margin: 0;
-    width: 80%;
-    padding: 2% 10%;
+    width: 100%;
+    padding: 2% 0;
     border-top: 3px solid #145632;
     background-color: #12A579;
 }
@@ -34,12 +34,40 @@ nav ul {
 
 nav li {
     display: inline;
-    padding: 0 8%;
+}
+
+.left {
+    margin-right: 50%;
 }
 
 nav a {
     text-decoration: none;
     color: white;
+}
+
+.fab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    right: 33%;
+    background-color: #E2CF2B;
+    color: white;
+    border: 2px solid #a29520;
+    border-radius: 50%;
+    padding: 10% 10% 10% 10%;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.fab a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 h2,
@@ -186,3 +214,5 @@ footer {
 .green {
     color: #4EB986;
 }
+
+
